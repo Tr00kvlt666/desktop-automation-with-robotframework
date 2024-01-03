@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.12 on win32)" generated="20240103 20:42:34.553" rpa="true" schemaversion="3">
+<suite id="s1" name="Untitled-1" source="d:\rob\Untitled-1.robot">
+<test id="s1-t1" name="Выбор месторождения" line="155">
+<kw name="Open RNKIN">
+<kw name="Set Global Timeout">
+<arg>5</arg>
+<msg timestamp="20240103 20:42:34.647" level="FAIL">No keyword with name 'Set Global Timeout' found.</msg>
+<status status="FAIL" starttime="20240103 20:42:34.646" endtime="20240103 20:42:34.649"/>
+</kw>
+<kw name="Windows Run">
+<arg>${path}</arg>
+<arg>30</arg>
+<status status="NOT RUN" starttime="20240103 20:42:34.653" endtime="20240103 20:42:34.653"/>
+</kw>
+<kw name="Control Window">
+<arg>regex:Company</arg>
+<status status="NOT RUN" starttime="20240103 20:42:34.656" endtime="20240103 20:42:34.656"/>
+</kw>
+<status status="FAIL" starttime="20240103 20:42:34.644" endtime="20240103 20:42:34.657"/>
+</kw>
+<kw name="Open well from Navigator">
+<status status="NOT RUN" starttime="20240103 20:42:34.679" endtime="20240103 20:42:34.679"/>
+</kw>
+<kw name="Close well selection">
+<status status="NOT RUN" starttime="20240103 20:42:34.680" endtime="20240103 20:42:34.680"/>
+</kw>
+<kw name="Exit RNKIN">
+<status status="NOT RUN" starttime="20240103 20:42:34.680" endtime="20240103 20:42:34.680"/>
+</kw>
+<status status="FAIL" starttime="20240103 20:42:34.607" endtime="20240103 20:42:34.682">No keyword with name 'Set Global Timeout' found.</status>
+</test>
+<status status="FAIL" starttime="20240103 20:42:34.560" endtime="20240103 20:42:34.685"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Untitled-1">Untitled-1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240103 20:42:34.593" level="ERROR">Error in file 'd:\rob\Untitled-1.robot' on line 2: Importing library 'RPA.Windows' failed: Module 'RPA' does not contain 'Windows'.</msg>
+</errors>
+</robot>
